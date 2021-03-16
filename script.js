@@ -58,6 +58,23 @@ let new_arr = arr.map(function(val){
     return val * this.multiplier;
 },obj);
 
+const myProduct = {
+title: "Tooth Brush",
+tags: ['a', 'b', 'c'],
+processTags: function(){
+ this.tags.forEach(function(tag){
+    console.log(`${tag} - ${this.title}`)
+     /*
+      a - Tooth Brush
+      b - Tooth Brush
+      c - Tooth Brush
+     */
+ }, this)
+
+}
+
+}
+
 
 function Product(title){
  this.title = title;
