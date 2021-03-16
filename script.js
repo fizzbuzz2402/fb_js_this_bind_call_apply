@@ -11,6 +11,15 @@ function fullName(home_state, age){
     console.log(`From ${home_state}`);
     console.log(`Aged ${age}`);
 }
+/*
+const president = {
+    firstname: "Joseph",
+    lastname: "Biden",
+    fullname: function(){
+        console.log(`${this.firstname} ${this.lastname}`)
+    }
+}
+*/
 const president = {
     firstname: "Joseph",
     lastname: "Biden",
